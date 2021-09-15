@@ -18,7 +18,7 @@
 <br>
 <b><i>
 <ul>
-  <li> 1.HTML</li>
+  <li> 1.HTML5</li>
   <li> 2.CSS</li>
   <li> 3.Python</li>
   <li> 4.MongoDB</li>
@@ -34,7 +34,7 @@
 <br>
 2.Open folder(downloded code folder) in Visual Studio Code, then open a terminal run the following commands
 <br>
-        --> pip install -r requirements.txt
+  --> pip install -r requirements.txt
         
 <br>
 3.Run app.py
