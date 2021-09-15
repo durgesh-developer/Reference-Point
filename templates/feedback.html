@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link href="../static/css/feedback.css" rel="stylesheet" />
+d>
+  <body>
+    <!-- The navigation menu -->
+    <div class="navbar">
+      <div class="ima">
+        <img src="../static/Images/loo2.jpeg" alt="HTML5 Icon" width="70" height="60" />
+      </div>
+      <div class="margin">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <!-- <a href="/courses">Courses</a> -->
+        <a href="/feedback">Feedback</a>
+        <a href="/logout">LogOut</a>
+      </div>
+    </div>
+
+  <div class="container">
+    <h1>Feedback</h1>
+    {% if err %}
+    <p style="text-align: center; text-transform: capitalize; font-size: medium;">{{err}}</p>
+    {% endif %}
+    <!--Container starts here-->
+      <h2 style="background-image: none">Please give your feedback below:</h2>
+      <form action="/feedback" method="POST">
+        <label for="fname" style="background-image: none">Your Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="name"
+          placeholder="Type your name here"
+          required
+        />
+        
+
+        <h2 class="mt-4">How do you rate your overall exeperience?</h2>
+        <label class="radio-inline"
+          ><input
+            type="radio"
+            name="exp"
+            value="5"
+          />Execellent</label
+        >
+        <label class="radio-inline"
+          ><input type="radio" name="exeperience" value="Good" />Good</label
+        >
+        <label class="radio-inline"
+          ><input
+            type="radio"
+            name="exp"
+            value="4"
+          />Avarage</label
+        >
+        <label class="radio-inline"
+          ><input type="radio" name="exp" value="2" />Poor</label
+        >
+        <br />
+        <h2 class="mt-4">Do you find the given links helpful?</h2>
+        <label class="radio-inline"
+          ><input type="radio" name="ask" value="Yes" />Yes</label
+        >
+        <label class="radio-inline"
+          ><input type="radio" name="ask" value="No" />No</label
+        >
+        <br />
+        <label class="col-md-8" style="background-image: none"
+          ><h2>Your Suggestions</h2>
+          <textarea
+            id="message"
+            required=""
+            palceholder="Write your message here"
+            cols="48"
+            rows="6"
+            name="message"
+          ></textarea>
+        </label>
+        <br />
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>

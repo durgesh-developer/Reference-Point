@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/script1.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/login.css" />
+  </head>
+  <body>
+    <!-- The navigation menu -->
+    <div class="navbar">
+      <div class="ima">
+        <img src="../static/Images/loo2.jpeg" alt="HTML5 Icon" width="70" height="60" />
+      </div>
+      <div class="margin">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/feedback">Feedback</a>
+        <a href="/login" >Login</a>
+      </div>
+    </div>
+   <div class="main"> 
+    <h1>LOGIN</h1>
+    {% if err %}
+     
+      <script>
+        alert("Invalid Credentials")
+        
+      </script>
+    {% endif %}
+    <form action="/login" method="POST">
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input
+          type="text"
+          id="unm"
+          placeholder="Enter Username"
+          name="username"
+          required
+        />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          id="pwd"
+          placeholder="Enter Password"
+          name="password"
+          required
+        />
+
+        <button type="submit" onclick="fun1()">Login</button>
+        <p>Don't have a login?</p>
+        <div class="su">
+          <a href="/signup">SignUp</a>
+        </div>
+      </div>
+    </form>
+  <div>
+  </body>
+</html>

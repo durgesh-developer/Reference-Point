@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+ 
+
+    <title>!!THE REFERENCE POINT!!</title>
+  </head>
+  <body>
+    <!-- The navigation menu -->
+    <div class="navbar">
+      <div class="ima">
+        <img src="../static/Images/loo2.jpeg" alt="HTML5 Icon" width="70" height="60" />
+      </div>
+      <div class="margin">
+        <a href="/" >Home</a>
+
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/courses">Courses</a>
+        <a href="/feedback">Feedback</a>
+      
+        {% if check %}
+          
+        <a style="display: none;" href="/login">Login</a>
+        {% else %}
+        <a href="/login">Login</a>
+        {% endif %}
+
+
+      </div>
+    </div>
+
+    <!--Home Section-->
+  <div class="Seperate">
+    <section class="Home">
+      <br />
+      <br />
+      <br />
+      <h1>THE REFERENCE POINT</h1>
+      <h2>...</h2>
+
+     <!--<p>Mistakes are proof that you are trying!</p>-->
+    </section>
+    <section class="boxes">
+      <div class="links">
+        <h3>Links</h3>
+        <p>
+          Links to your reference notes! search for your doubts and clear them
+          by going to the provided links.
+        </p>
+      </div>
+      <div class="we">
+        <h3>What we do?</h3>
+        <p>
+          We provide you the best refernces among all the recommended websites
+          and channels. Just click the link you wish and get your reference!
+        </p>
+      </div>
+      <div class="reason">
+        <h3>Why Links?</h3>
+        <p>
+          Links can drive you through the entire internet! The best links gather
+          here and so should you :))
+        </p>
+      </div>
+    </section>
+  </div>
+    <footer>
+      <p>Designed by THE REFERENCE POINT.</p>
+    </footer>
+  </body>
+</html>

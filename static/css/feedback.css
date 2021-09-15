@@ -1,0 +1,114 @@
+
+
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 100%;
+  font-family: "Merienda", cursive;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  }
+  
+  .navbar .margin {
+  margin-right: 10px;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+  float: left;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  padding: 6px 6px;
+  margin: 0px 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-family: 'Bona Nova', serif;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover {
+    background-color:rgb(4, 12, 41);
+  color: white;
+  box-shadow: 2px 2px 2px white;
+  transition: 0.25s;
+  }
+  
+  .navbar .ima {
+  margin-right: 50px;
+  margin-left: 50px;
+  }
+
+#fname {
+  margin-bottom: 10px;
+  background-image: none;
+  padding: 5px 6px;
+}
+#lname {
+  margin-bottom: 10px;
+  background-image: none;
+  padding: 5px 6px;
+}
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  font-size: 70px;
+  font-family: 'Bona Nova', serif;
+  text-shadow: 4px 4px 8px rgb(10, 68, 62);
+}
+.container {
+  text-align: center;
+  font-family: 'Bona Nova', serif;
+  margin: 25px 25% 25px 25%;
+  margin-top: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 0px;
+  overflow: auto;
+  /* background: linear-gradient(rgb(88, 145, 141), rgb(96, 255, 231), white); */
+  background-image: url("../Images/img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+#submit {
+  margin-bottom: 10px;
+  background-color: orange;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  background-image: none;
+}
+#submit:hover {
+  background-color: hotpink;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+form {
+  background-image: none;
+}
+h3,
+h4,
+h1 {
+  background-image: none;
+}
+.radio-inline,
+#message {
+  background-image: none;
+}
+#message {
+  border: 2px solid black;
+}
