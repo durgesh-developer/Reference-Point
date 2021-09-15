@@ -2,7 +2,7 @@
 <br>
 
 ##  <i>Description</i>
-<p><i><strong>Reference Point</strong> provides the user the best references among all the recommended websites and you tube channels. As we all know there are tremendous amounts of the links given on the internet for each topic and for beginer its quiet difficult to get to know what is the correct reference to choose. Also some of the students at their high school level didn't get to know about the compitative exams this web site will also provide them information about those too. Also the students who have only device in their family to get connected to todays world and they don't know how to get refrences for studies...</i>
+<p><i><strong>Reference Point</strong> provides the user the best references among all the recommended websites and you tube channels. As we all know there are tremendous amounts of the links given on the internet for each topic and for beginer its quiet difficult to get to know what is the correct reference to choose. Also some of the students at their high school level didn't get to know about the compitative exams this web site will also provide them information about those too. Also the students who have only device in their family to get connected to todays world and they don't know how to get refrences for studies.....</i>
 </p> 
 <br>
 
