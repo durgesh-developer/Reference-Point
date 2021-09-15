@@ -18,7 +18,7 @@
 <br>
 <b><i>
 <ul>
-  <li> 1.HTML5</li>
+  <li> 1.HTML</li>
   <li> 2.CSS</li>
   <li> 3.Python</li>
   <li> 4.MongoDB</li>
