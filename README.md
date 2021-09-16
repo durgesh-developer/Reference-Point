@@ -12,6 +12,10 @@
 <i>[Untitled presentation.pptx](https://github.com/durgesh-developer/Reference-Point/files/7171429/Untitled.presentation.pptx)</i>
 <br>
 
+## <i>VIDEO</i>
+<br>
+<i><a href="https://drive.google.com/file/d/1r8wHTmRos0Pnc8q6P3-y5yd_qITQdjmB/view?usp=sharing">Video link</a></i>
+<br>
 
 ## <i>Tech Stack</i>
 
