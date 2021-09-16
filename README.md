@@ -14,7 +14,7 @@
 
 ## <i>VIDEO</i>
 <br>
-<i><a href="https://drive.google.com/file/d/1r8wHTmRos0Pnc8q6P3-y5yd_qITQdjmB/view?usp=sharing">Video link</a></i>
+<i><a href="https://drive.google.com/file/d/1r8wHTmRos0Pnc8q6P3-y5yd_qITQdjmB/view?usp=sharing" target="_blank">Video link</a></i>
 <br>
 
 ## <i>Tech Stack</i>
